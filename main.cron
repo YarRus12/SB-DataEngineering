@@ -1,0 +1,6 @@
+#!/usr/bin/python
+33 15 * * * python /home/de1m/russ/main.py
+50 15 * * * rm -b .bak /home/de1m/russ/data_3_files/passport_blacklist_*.xlsx > /home/de1m/russ/archive/
+50 15 * * * rm -b .bak /home/de1m/russ/data_3_files/terminals_*.xlsx > /home/de1m/russ/archive/
+50 15 * * * rm -b .bak /home/de1m/russ/data_3_files/transactions_*.xlsx > /home/de1m/russ/archive/
+
